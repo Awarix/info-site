@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: "Inter", sans-serif;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+    
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+
+    --gradient-text-1: linear-gradient(90deg,#007cf0,#00dfd8);
+    --gradient-text-2: linear-gradient(90deg,#7928CA,#FF0080);
+    --gradient-text-3: linear-gradient(90deg,#ff4d4d,#f9cb28);
+    
+    --fs-intro: 18rem;
+    --fs-h1: 12rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.25rem;
+    --fs-h4: 2.25em;
+    --fs-h5: 2rem;
+    --fs-nav: 2rem;
+    --fs-body: 1.5rem;
+    
+    --lh-intro: 17rem;
+    --lh-h2: 7rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+@media screen and (max-width: 1950px) {
+
+  :root {
+    --fs-h2: 3.5rem;
+    --fs-intro: 16rem;
+    --lh-intro: 15rem;
+  }
+  
+}
+
+@media screen and (max-width: 1500px) {
+  :root {
+      --fs-h2: 3rem;
+      --fs-h3: 1.5rem;
+      --fs-nav: 1.75rem;
+      --fs-intro: 14.5rem;
+      --lh-intro: 14rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  :root {
+      --fs-h2: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  :root {
+      --fs-intro: 13rem;
+      --lh-intro: 12rem;
+      --fs-h1: 11rem;
+      --fs-h2: 2.25rem;
+      --fs-h4: 2rem;
+      --fs-h5: 1.75rem;
+      --fs-nav: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+      --fs-intro: 13rem;
+      --lh-intro: 12rem;
+      --fs-h1: 9.5rem;
+      --fs-h2: 2.25rem;
+      --fs-nav: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+      --fs-intro: 11rem;
+      --lh-intro: 10rem;
+      --fs-h1: 7rem;
+      --fs-nav: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+      --fs-intro: 9rem;
+      --lh-intro: 8rem;
+      --fs-h1: 5.5rem;
+      --fs-h4: 1.75rem;
+      --fs-h5: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+      --fs-intro: 7.5rem;
+      --lh-intro: 7rem;
+      --fs-h1: 4.25rem;
+      --fs-h2: 1.5rem;
+      --lh-h2: 4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  :root {
+      --fs-intro: 5.5rem;
+      --lh-intro: 5rem;
+      --fs-h1: 3rem;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  :root {
+    --fs-intro: 21rem;
+    --lh-intro: 20rem;
+  }  
+}

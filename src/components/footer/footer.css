@@ -1,0 +1,17 @@
+.footer-holder {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.footer-links a {
+    margin-left: 2rem;
+    color: #fff;
+}

@@ -1,0 +1,112 @@
+.game-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  .betGame {
+    background-color: greenyellow;
+    color: #000;
+    border-radius: 20px;
+    padding: 0 2rem;
+    margin-left: 0.25rem;
+  }
+
+  .gameId {
+    align-self: flex-end;
+    padding: 10px;
+    opacity: 0.7;
+    text-align: end;
+    font-weight: 100;
+  }
+
+  .game-start {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px black solid;
+    font-size: 30px;
+    background-color: #ff102bde;
+    color: #ffffff;
+    margin: auto;
+}
+
+/* new classes below*/
+
+.game-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #fff;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    max-width: 1200px;
+    flex: 1;
+}
+
+.game-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.game-main-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--fs-h5);
+}
+
+.game-main-left {
+    max-width: 450px;
+    margin: 0 2rem;
+}
+
+.gamePrice {
+    border: 1px solid;
+    padding: 0.1rem 0.5rem;
+    margin-left: 1rem;
+    border-radius: 20px;
+}
+
+.game-creator {
+    font-size: var(--fs-h4);
+}
+
+.game-creator-rating {
+    font-size: var(--fs-h5);
+    font-weight: var(--fw-reg);
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1800px) {
+    .game-type {
+        flex-direction: column;
+    }
+    .betGame {
+        margin: 0; 
+        padding: 0 1rem;
+    }
+    .gamePrice {
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width: 1650px) {
+    .betGame {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .game-main {
+        flex-direction: column;
+    }
+    
+}

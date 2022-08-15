@@ -1,0 +1,34 @@
+.EA-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.EA-title {
+    font-size: var(--fs-h2);
+    text-align: center;
+    margin-bottom: 3rem;
+    animation: none;
+
+}
+
+.EA-button {
+    text-align: center;
+    color: var(--clr-light);
+    background: #000;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-h3);
+    padding: 1rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+
+}
+
+@media  screen and (max-width: 600px) {
+    .EA-title {
+        margin-bottom: 1rem;
+    }
+    
+}

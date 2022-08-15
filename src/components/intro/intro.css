@@ -1,0 +1,50 @@
+.intro-container {
+    margin: 0 auto;
+    font-size: var(--fs-intro);
+    font-family: var(--ff-secondary);
+    line-height: var(--lh-intro);
+    font-weight: var(--fw-bold);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5rem 0;
+}
+
+.gradient-text-1 {
+    background: var(--gradient-text-1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-2 {
+    background: var(--gradient-text-2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-3 {
+    background: var(--gradient-text-3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1950px) {
+    .intro-container {
+        padding: 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .intro-container {
+        padding: 0.75rem 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .intro-container {
+        padding: 0.5rem 0;
+    }
+}

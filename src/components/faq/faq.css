@@ -1,0 +1,13 @@
+.faq-holder {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+}
+
+.faq-question {
+    font-size: var(--fs-h4);
+}
+
+.faq-answer {
+    font-size: var(--fs-h5);
+}

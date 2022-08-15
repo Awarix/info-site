@@ -1,0 +1,8 @@
+.br {
+    display: flex;
+    height: 2px;
+    background: var(--gradient-text-1);
+    -webkit-filter: blur(2px);
+    border-radius: 35px;
+    margin: 7%;
+}

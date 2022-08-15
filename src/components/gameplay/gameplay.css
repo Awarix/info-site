@@ -1,0 +1,49 @@
+.gameplay-holder {
+    width: 100%;
+    padding: 2rem;
+}
+
+.gameplay-title {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+    text-align: center;
+    animation: none;
+    padding: 2rem 0;
+}
+
+.gameplay-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem 0;
+    flex: 1;
+}
+
+.gameplay-text {
+    font-size: var(--fs-h2);
+    text-align: center;
+    padding: 3rem;
+    max-width: 980px;
+    flex: 1;
+}
+
+.reverce {
+    order: 2;
+}
+
+.fight {
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1650px) {
+        .gameplay-box {
+            flex-direction: column;
+        }
+        .gameplay-holder {
+            width: 100%;
+        }
+        .reverce {
+            order: -1;
+        }
+}
