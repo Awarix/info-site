@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/info-site/static/css/main.fd955543.css",
+    "main.js": "/info-site/static/js/main.8565429b.js",
+    "static/media/phantom.png": "/info-site/static/media/phantom.85afa102f3cf1ec959ce.png",
+    "static/media/msc046.gif": "/info-site/static/media/msc046.438da1ada802584c89b4.gif",
+    "static/media/game.png": "/info-site/static/media/game.8e98557efc3cb1c41576.png",
+    "static/media/swords.png": "/info-site/static/media/swords.32390b4d4ef90954af06.png",
+    "static/media/logo.png": "/info-site/static/media/logo.025071b084e4acf427e4.png",
+    "static/media/armor.png": "/info-site/static/media/armor.1d708e30a5e44590b32a.png",
+    "static/media/sword.png": "/info-site/static/media/sword.e22d341da366ae5abdd3.png",
+    "static/media/life.png": "/info-site/static/media/life.08907293a47c4e2789e4.png",
+    "index.html": "/info-site/index.html",
+    "main.fd955543.css.map": "/info-site/static/css/main.fd955543.css.map",
+    "main.8565429b.js.map": "/info-site/static/js/main.8565429b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd955543.css",
+    "static/js/main.8565429b.js"
+  ]
+}
